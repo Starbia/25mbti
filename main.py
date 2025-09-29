@@ -14,7 +14,3 @@ df = pd.read_csv(file_path)
 st.subheader("데이터 상위 5줄 미리보기")
 st.dataframe(df.head())
 
-# 행/열 크기와 기본 정보 표시
-st.write("데이터 크기 (행, 열):", df.shape)
-st.write("컬럼 목록:", df.columns.tolist())
-
